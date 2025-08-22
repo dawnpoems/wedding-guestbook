@@ -15,3 +15,12 @@ build/
 
 # === System ===
 .DS_Store
+
+# Default ignored files
+/backend/shelf/
+/backend/workspace.xml
+# Editor-based HTTP Client requests
+/backend/httpRequests/
+# Datasource local storage ignored files
+/backend/dataSources/
+/backend/dataSources.local.xml
