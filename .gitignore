@@ -1,0 +1,17 @@
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+*.ipr
+sqldialects.xml
+modules.xml
+
+# === Gradle ===
+.gradle/
+build/
+
+# === Logs ===
+*.log
+
+# === System ===
+.DS_Store
