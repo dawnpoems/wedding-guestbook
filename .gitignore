@@ -24,3 +24,27 @@ build/
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# === 환경/시크릿 설정 ===
+
+# backend의 secrets 파일 무시
+backend/src/main/resources/application-prd.yml
+backend/src/main/resources/application-docker.yml
+backend/src/main/resources/.env
+backend/src/main/resources/*.secrets.yml
+backend/src/main/resources/*.local.yml
+
+# root 혹은 하위 경로에 있을 수도 있는 .env 무시
+.env
+.env.*
+
+# === 기타 ===
+*.pem
+*.key
+*.crt
+*.cache
+*.bak
+
+# === 테스트 설정 ===
+test-output/
+*.test.yml

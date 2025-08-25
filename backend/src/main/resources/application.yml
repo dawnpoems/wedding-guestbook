@@ -1,11 +1,7 @@
 spring:
+  application:
+    name: wedding-guestbook
+  profiles:
+    active: prd
   datasource:
-    url: jdbc:postgresql://wedding_db:5432/wedding_db
-    username: wedding_user
-    password: wedding_pass
-  jpa:
-    hibernate:
-      ddl-auto: none
-  flyway:
-    enabled: true
-    locations: classpath:db/migration
+    driver-class-name: org.postgresql.Driver
